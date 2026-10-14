@@ -1,0 +1,16 @@
+.git
+**/node_modules
+**/dist
+**/dist-pages
+**/test-results
+**/playwright-report
+**/.env
+**/.env.*
+**/*.log
+**/*.tsbuildinfo
+**/*.test.ts
+mockup/e2e
+mockup/test
+mockup/playwright.config.ts
+PLAN_IMPLEMENTARE.md
+**/README.md

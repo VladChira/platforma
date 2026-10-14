@@ -1,0 +1,8 @@
+services:
+  platforma:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8877:3000"
+    restart: unless-stopped

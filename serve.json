@@ -1,0 +1,8 @@
+{
+  "cleanUrls": false,
+  "directoryListing": false,
+  "rewrites": [
+    { "source": "/platforma", "destination": "/platforma/index.html" },
+    { "source": "/platforma/**", "destination": "/platforma/index.html" }
+  ]
+}
