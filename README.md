@@ -29,7 +29,7 @@ Pentru dezvoltare în modul Pages: `npm run dev:pages`; pentru previzualizarea b
 
 Publicarea Pages este pregătită pentru un repository separat **`VladChira/platforma`**, cu conținutul acestui folder la rădăcină. Workflow-ul este în [`.github/workflows/pages.yml`](.github/workflows/pages.yml). Nu trebuie activat în repository-ul `home-server`, unde acest proiect este încă un subfolder.
 
-Site-ul Chirpy din `VladChira/VladChira.github.io` rămâne separat. Instrucțiunile de pregătire a noului repository și de activare Pages sunt în [github-pages/README.md](github-pages/README.md). Adresa țintă este `https://vladchira.github.io/platforma/`; existența acestei configurații locale nu înseamnă că site-ul a fost publicat.
+Site-ul Chirpy din `VladChira/VladChira.github.io` rămâne separat. Aplicația este publicată la [vladchira.github.io/platforma/](https://vladchira.github.io/platforma/), din repository-ul [VladChira/platforma](https://github.com/VladChira/platforma). Instrucțiunile pentru cele două variante sunt în [github-pages/README.md](github-pages/README.md).
 
 ## Deploy cu Docker Compose
 
@@ -81,7 +81,7 @@ Actualizare după copierea noilor surse: `docker compose up -d --build`. Loguri:
 - Buletinul permite selecții multiple de teme și tipuri de evenimente. Preferințele se salvează în browser, iar selecția previzualizată este reflectată în URL. Dacă stocarea este blocată, aplicația continuă să funcționeze în memorie.
 - Pagina Verifică oferă glosar, metodologie, registrul documentelor și exporturi JSON/CSV. JSON include întregul set de date; CSV include fiecare fapt al proiectelor, cu `isMissing`, proveniență și surse.
 
-Toate cifrele, instituțiile din scenariu și documentele sunt demonstrative. Nu descriu situația reală a PNRR. Nu există backend, conturi, importuri, AI sau trimitere de email; nu se colectează adrese. Nu s-a publicat aplicația pe internet.
+Toate cifrele, instituțiile din scenariu și documentele sunt demonstrative. Nu descriu situația reală a PNRR. Nu există backend, conturi, importuri, AI sau trimitere de email; nu se colectează adrese. Varianta GitHub Pages este publică; Docker permite găzduirea separată pe serverul local.
 
 ## Verificare
 

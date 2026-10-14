@@ -4,6 +4,15 @@ Alegerea este un repository separat, `VladChira/platforma`, publicat la `https:/
 
 GitHub permite un site de utilizator la `<utilizator>.github.io` și un site de proiect per repository la `<utilizator>.github.io/<repository>`. Aplicația folosește a doua variantă.
 
+Repository-ul și Pages sunt configurate. Pentru modificări ulterioare folosește direct noul repository:
+
+```bash
+git clone https://github.com/VladChira/platforma.git
+cd platforma
+```
+
+Fiecare push pe `main` actualizează automat varianta Pages. Pe serverul local rulează `git pull --ff-only` și `docker compose up -d --build` din această clonă pentru a actualiza varianta Docker. Secțiunile de pregătire de mai jos descriu instalarea inițială și nu trebuie repetate.
+
 ## Structura repository-ului nou
 
 Copiază **conținutul** folderului `platforma/` la rădăcina repository-ului `VladChira/platforma`, astfel încât acesta să conțină:
